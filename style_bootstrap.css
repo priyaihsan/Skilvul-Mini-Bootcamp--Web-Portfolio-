@@ -1,0 +1,128 @@
+html,
+section {
+	font-family: 'Open Sans', sans-serif;
+	background: #3bd899;
+	color: #272727;
+}
+
+/* profile-image */
+#profile-image {
+	width: 80px;
+	height: 80px;
+	border-radius: 10px;
+}
+
+/* ================ name and about ==================*/
+#name,
+#about {
+	font-weight: bolder;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#name {
+	font-size: 23px !important;
+	line-height: 20px !important;
+}
+
+#about {
+	font-size: 20px !important;
+}
+/* akhir name and about */
+
+/* ================== social media ===================*/
+#social-media a {
+	margin-left: 10px;
+}
+
+#social-media i {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-size: 1.1rem;
+}
+
+/* akhir social media */
+
+/*==================== hr ============================*/
+hr {
+	background: rgb(255, 255, 255);
+}
+
+/* akhir hr */
+
+/*===================== p and span ===================*/
+
+#universitas,
+#falkultas,
+#more-about,
+#telephone {
+	color: rgb(255, 255, 255);
+	font-size: 13.5px;
+}
+
+strong,
+span {
+	color: black;
+	font-size: 16px;
+}
+
+/* akhir p and span */
+
+/*====================== card message ==================*/
+
+#box {
+	background: #edfffa;
+}
+.card li {
+	list-style: none;
+	margin-left: 30px;
+}
+
+.card a {
+	margin-left: 35px;
+	margin-bottom: 15px;
+	text-decoration: none;
+}
+
+#title p {
+	color: #00996b;
+	margin: 15px 10px;
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+#title i {
+	color: black;
+	margin-right: 10px;
+	font-size: 18px;
+}
+
+.tags {
+	font-size: 17px;
+	font-weight: bolder;
+}
+
+.tags span span {
+	margin-left: 10px;
+	color: #738f93;
+}
+
+.tags span {
+	font-size: 14px;
+	font-weight: normal;
+	color: #3d3d3d;
+}
+/* akhir card message */
+
+/*====================== card project =====================*/
+.progress {
+	margin-right: 30px;
+}
+
+.tags-project {
+	font-weight: bolder;
+	line-height: 2px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+/* akhir card project */
