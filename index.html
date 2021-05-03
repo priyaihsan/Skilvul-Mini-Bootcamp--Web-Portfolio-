@@ -16,7 +16,7 @@
 
 		<title>Web CV Priya Ihsan Amirullah</title>
 	</head>
-	<body>
+	<body onload="realtime()">
 		<section>
 			<div class="container">
 				<div class="row">
@@ -38,55 +38,63 @@
 							<p id="falkultas">Falkultas<br /><strong id="collage">Teknik Informatika</strong></p>
 							<p id="more-about">More about me<br /><span id="text-more-about">i love coding</span></p>
 							<p id="telephone">Telephone<br /><strong id="no-telephone">021-12345678</strong></p>
-							<p><a href="sertificate/Skilvul-SkilBadge-Coding di Skilvul Playground.pdf">check sertificate</a></p>
+							<p id="button"><a href="sertificate/Skilvul-SkilBadge-Coding di Skilvul Playground.pdf" id="button-sertificate">check sertificate</a></p>
 						</div>
 					</div>
 					<div class="col-md">
 						<!-- card -->
 						<div class="info-card mt-5">
 							<!-- card project -->
-							<div class="card shadow-sm mt-3 mb-3" id="box">
+							<div class="card mt-3 mb-3" id="box">
 								<div id="title">
 									<p><i class="bi bi-kanban"></i>Project</p>
 								</div>
 								<ul>
 									<li>
-										<p class="tags-project">
-                                            Python
-                                            <div class="progress">
-                                                <div class="progress-bar bg-info" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>
-                                              </div>
-										</p>
-                                        <p class="tags-project">
-                                            HTML
-                                            <div class="progress">
-                                                <div class="progress-bar bg-warning" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
-                                              </div>
-										</p>
-                                        <p class="tags-project">
-                                            CSS
-                                            <div class="progress">
-                                                <div class="progress-bar bg-danger" role="progressbar" style="width: 10%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
-                                              </div>
-										</p>
+										<!-- <div class="project">
+											<span id="project-title">Python</span>
+											<span id="project-bar"><span>25%</span></span>
+										</div> -->
+										<div class="row justify-content-start">
+											<div class="col-md-2 align-self-center"><p class="progress-title">Python</p></div>
+											<div class="col-md align-self-center">
+												<div class="progress" style="background-color: #0f7e5d">
+													<div class="progress-bar" role="progressbar" style="width: 25%; background-color: #269b78" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+												</div>
+											</div>
+										</div>
+										<div class="row justify-content-start">
+											<div class="col-md-2 align-self-center"><p class="progress-title">Html</p></div>
+											<div class="col-md align-self-center">
+												<div class="progress" style="background-color: #0f7e5d">
+													<div class="progress-bar" role="progressbar" style="width: 15%; background-color: #269b78" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">15%</div>
+												</div>
+											</div>
+										</div>
 									</li>
 								</ul>
 							</div>
+							<!-- akhir card project -->
+
 							<!-- card message -->
-							<div class="card shadow-sm mt-3 mb-3" id="box">
-								<div id="title">
-									<p><i class="bi bi-chat-right-dots"></i>Message</p>
+							<div class="card mt-3 mb-3" id="box">
+								<div class="row">
+									<div class="col-md-4 align-self-center" id="title">
+										<p><i class="bi bi-chat-right-dots"></i>Message</p>
+									</div>
+									<div class="col-md align-self-center ms-2"><span id="real-time"></span></div>
 								</div>
-								<ul id="message-box">
+								<ul id="message-box" class="mt-3">
 									<li>
 										<p class="tags">
 											priya ihsan <br />
-											<span>Kapan ke jogja lagi pri ?<span>January, 2019 - now</span></span>
+											<span>Kapan ke jogja lagi pri ?<span id="time-chat">January, 2019 - now</span></span>
 										</p>
 									</li>
 								</ul>
 								<a href="#" onclick="addMessage(event)"> + add message</a>
 							</div>
+							<!-- akhir card message -->
 						</div>
 					</div>
 				</div>

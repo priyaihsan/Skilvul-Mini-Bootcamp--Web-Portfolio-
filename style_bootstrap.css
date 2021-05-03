@@ -1,7 +1,7 @@
 html,
 section {
 	font-family: 'Open Sans', sans-serif;
-	background: #3bd899;
+	background: #35e09c;
 	color: #272727;
 }
 
@@ -71,14 +71,25 @@ span {
 
 #box {
 	background: #edfffa;
+	filter: drop-shadow(5px 6px 7px #107456);
 }
+
+#real-time {
+	font-weight: normal;
+	font-size: 12px;
+	color: #f3f3f3;
+	background-color: #0f9b71;
+	padding: 0.2rem 10px;
+	border-radius: 5px;
+	filter: drop-shadow(5px 6px 4px #c0c0c0);
+}
+
 .card li {
 	list-style: none;
-	margin-left: 30px;
 }
 
 .card a {
-	margin-left: 35px;
+	margin-left: 30px;
 	margin-bottom: 15px;
 	text-decoration: none;
 }
@@ -114,15 +125,64 @@ span {
 /* akhir card message */
 
 /*====================== card project =====================*/
-.progress {
-	margin-right: 30px;
-}
 
-.tags-project {
-	font-weight: bolder;
-	line-height: 2px;
-	margin-top: 15px;
+/* .project {
 	margin-bottom: 10px;
 }
 
+#project-title {
+	margin-right: 10px;
+	font-weight: 700;
+}
+
+#project-bar {
+	background-color: #bbbbbb;
+	padding: 0 25rem 0 0;
+	border-radius: 0.25rem;
+	filter: drop-shadow(5px 5px 4px #cecece);
+}
+
+#project-bar span {
+	background-color: #12ac7e;
+	padding: 0 25px 0 25px;
+	border-radius: 0.25rem;
+	font-weight: 400;
+	color: #ffffff;
+} */
+
+.progress-title {
+	margin-top: 12px;
+	font-weight: bold;
+}
+
+.progress {
+	margin-right: 20px;
+	filter: drop-shadow(4px 5px 3px #c4c4c4);
+}
+
 /* akhir card project */
+
+/* tempplate button */
+#button {
+	margin-top: 2rem;
+}
+
+#button a {
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	border-radius: 0.25rem;
+	padding: 0.5rem 1rem;
+	filter: drop-shadow(6px 8px 4px #107456);
+}
+
+/* akhir tempplate button */
+
+/* button certificate */
+
+#button-sertificate {
+	color: rgb(255, 255, 255);
+	background-color: #158b68;
+}
+
+/* akhir button certificate */
