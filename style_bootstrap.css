@@ -1,9 +1,16 @@
 html,
 section {
 	font-family: 'Open Sans', sans-serif;
-	background: #35e09c;
+	background-color: #56ca9a;
 	color: #272727;
 }
+
+/* background change realtime */
+/* body {
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	transition: all 1s ease;
+} */
 
 /* profile-image */
 #profile-image {
@@ -71,7 +78,7 @@ span {
 
 #box {
 	background: #edfffa;
-	filter: drop-shadow(5px 6px 7px #107456);
+	filter: drop-shadow(5px 6px 7px #138361);
 }
 
 #real-time {
@@ -81,7 +88,7 @@ span {
 	background-color: #0f9b71;
 	padding: 0.2rem 10px;
 	border-radius: 5px;
-	filter: drop-shadow(5px 6px 4px #c0c0c0);
+	filter: drop-shadow(5px 6px 4px #a7a7a7);
 }
 
 .card li {
@@ -173,7 +180,7 @@ span {
 	font-weight: 700;
 	border-radius: 0.25rem;
 	padding: 0.5rem 1rem;
-	filter: drop-shadow(6px 8px 4px #107456);
+	filter: drop-shadow(6px 8px 4px #138361);
 }
 
 /* akhir tempplate button */

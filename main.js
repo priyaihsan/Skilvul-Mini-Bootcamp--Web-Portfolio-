@@ -81,3 +81,17 @@ function realtime() {
 
 	var t = setTimeout(realtime, 500);
 }
+
+// background change
+
+var c = ['#A1C7BA', '#C3E6D2', '#A9D1E8', '#A9D1E8', '#97C4DE', '#FAD8BF', '#F8ECBD', '#FAF7EA', '#B3E3F8', '#8CD1F6', '#85BEF9'];
+var i = 0;
+var myVar = setInterval(function () {
+	myTimer();
+}, 1000);
+
+function myTimer() {
+	document.getElementsByTagName('body')[0].style.background = c[i];
+	i = i + 1;
+	if (i >= c.length) i = 0;
+}
